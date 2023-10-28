@@ -5,7 +5,11 @@ const RestaurantList = {
   async render() {
     return /* html */`
     <section class="hero">
-      <img src="./images/heros/hero-image_4.jpg" alt="Gambar Makanan Restoran" class="lazyload">
+      <picture>
+        <source class="lazyload" media="(min-width:600px)" srcset="./images/heros/hero-image_4-large.jpg" type="image/jpg">
+        <source class="lazyload" media="(max-width:600px)" srcset="./images/heros/hero-image_4-small.jpg" type="image/jpg">
+        <img class="lazyload" data-src="./images/heros/hero-image_4.jpg" alt="Gambar Makanan Restoran" >
+      </picture>
         <div class="hero-text">
           <h1>Welcome...</h1>
         </div>
