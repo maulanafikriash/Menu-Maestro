@@ -21,5 +21,9 @@ All Native
 - SCSS
 - HTML
 
+## Automation Testing :
+- Integration Test (Jest)
+- End to End Test (CodeceptJS)
+
 ## Deploy using Netlify
 - https://menu-maestro.netlify.app/
