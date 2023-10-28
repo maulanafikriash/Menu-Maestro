@@ -1,5 +1,5 @@
 # Menu-Maestro
-This is a restaurant catalog website that was the result of my submission, in the class to become a front-end web developer expert at [Dicoding Academy](https://www.dicoding.com/).\
+This is a restaurant catalog website that was the result of my submission, in the class to become a front-end web developer expert at [Dicoding Academy](https://www.dicoding.com/)
 
 ## Menu Page :
 - Home
