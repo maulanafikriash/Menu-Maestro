@@ -1,6 +1,5 @@
 $primary-color: #333;
 $flexible: flex;
-$min-touch-target-size: 44px;
 
 @media screen and (max-width: 768px) {
     .menu {
@@ -43,10 +42,6 @@ $min-touch-target-size: 44px;
       margin-bottom: 2%;
     }
 
-    button, a, input[type="text"], textarea {
-      min-width: $min-touch-target-size;
-      min-height: $min-touch-target-size;
-    }
 
     .navbar {
       background-color: $primary-color;
