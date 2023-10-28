@@ -12,6 +12,7 @@ This is a restaurant catalog website that was the result of my submission, in th
 - PWA
 - Webpack
 - Workbox
+- API
 - Aksesibilitas
 - Responsive All Device
 
