@@ -2,6 +2,8 @@ import 'regenerator-runtime'; /* for async await transpile */
 import '../styles/style.scss';
 import '../styles/responsive.scss';
 import '../styles/skeleton.scss';
+import 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 import './views/templates/menu-maestro';
 import './views/templates/about-us';
 import './views/templates/loading-indicator';
