@@ -13,7 +13,7 @@ const createRestaurantItemTemplate = (restaurant) => /* html */ `
   <div class="restaurant-item">
     <div class="restaurant-item__header">
       <img tabindex="0" class="lazyload restaurant-item__header__poster" alt="${restaurant.name}"
-           src="${CONFIG.BASE_IMAGE_URL_LARGE + restaurant.pictureId}">
+           data-src="${CONFIG.BASE_IMAGE_URL_LARGE + restaurant.pictureId}">
       <div class="restaurant-item__header__rating">
         <p tabindex="0">⭐️<span class="restaurant-item-header__rating__score">${restaurant.rating}</span></p>
       </div>
@@ -28,7 +28,7 @@ const createRestaurantItemTemplate = (restaurant) => /* html */ `
 
 const createRestaurantDetailTemplate = (restaurant) => /* html */ `
   <h2 tabindex="0" class="restaurant__title">${restaurant.name}</h2>
-  <img tabindex="0" class="lazyload restaurant__poster" src="${CONFIG.BASE_IMAGE_URL_LARGE + restaurant.pictureId}" alt="${restaurant.name}" />
+  <img tabindex="0" class="lazyload restaurant__poster" data-src="${CONFIG.BASE_IMAGE_URL_LARGE + restaurant.pictureId}" alt="${restaurant.name}" />
   <div class="restaurant__info">
     <h3 tabindex="0">Informasi</h3>
     <h4 tabindex="0">Kota</h4>
