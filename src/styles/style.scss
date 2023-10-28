@@ -184,7 +184,7 @@ button, a, input[type="text"], textarea {
       a {
         color: $primary-color;
         text-decoration: none;
-        display: inline;
+        display: inline-block;
       }
     }
 
@@ -476,12 +476,18 @@ button, a, input[type="text"], textarea {
     margin-top: 10px;
     font-size: 1rem;
   }
+  a {
+    display: inline-block;
+  }
+  
 }
 
-.icons i {
-  color: #333;
-  margin: 0 15px;
-  padding: 18px 0;
+.icons {
+  i {
+    color: #333;
+    margin: 0 15px;
+    padding: 15px 0;
+  }
 }
 
 :focus {
