@@ -22,9 +22,9 @@ $flexible: flex;
         background-color: $primary-color;
         width: 100%;
         padding: 5px;     
+        z-index: 9999;
         li {
-            margin: 2px 0;
-            padding: 5px 17px;
+            padding: 5px 0;
         }
         ul {
           list-style: none;
@@ -59,7 +59,7 @@ $flexible: flex;
   @media screen and (max-width: 500px){
     .hero-text{
       h1{
-        font-size: 35px;
+        font-size: 45px;
       }
     }
   }
