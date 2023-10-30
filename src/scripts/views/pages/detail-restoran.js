@@ -10,17 +10,21 @@ import FavoriteRestaurantIdb from '../../data/favorite-resto-idb';
 const RestaurantDetails = {
   async render() {
     return /* html */`
-
-    <div id="skeleton" class="skeleton">
-      <div class="skeleton-header"></div>
-        <div class="skeleton-content">
-          <div class="skeleton-image"></div>
-          <div class="skeleton-details">
-          <div class="skeleton-title"></div>
-          <div class="skeleton-info"></div>
-        </div>
-      </div>
+    <div id="skeleton"> 
+    <h2 class="skeleton-ui"></h2>
+    <img class="skeleton-ui__poster" alt="" />
+    <div class="skeleton-ui__info">
+      <h4></h4>
+      <p></p>
+      <h4></h4>
+      <p></p>
     </div>
+    <div class="skeleton-ui__description">
+      <h3></h3>
+      <p></p>
+    </div>
+    </div>
+
 
     <div id="restaurant" class="restaurant" tabindex="0"></div>
     <div id="likeButtonContainer" tabindex="0"></div>
@@ -102,7 +106,7 @@ const RestaurantDetails = {
             pictureId: resto.pictureId,
           },
         });
-      }, 1000);
+      }, 2000);
     };
 
     loadRestaurantDetails();
