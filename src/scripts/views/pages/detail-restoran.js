@@ -102,7 +102,7 @@ const RestaurantDetails = {
             pictureId: resto.pictureId,
           },
         });
-      }, 3000);
+      }, 1000);
     };
 
     loadRestaurantDetails();
