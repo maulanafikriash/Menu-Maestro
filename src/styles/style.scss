@@ -34,27 +34,41 @@ button, a, input[type="text"], textarea {
   padding: 17px 17px;
 }
 
-.hero img {
-  width: 100%;
-  height: 100vh; 
-  object-fit: cover; 
-}
+.hero {
+  position: relative;
 
-.hero-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 20px;
-  color: white;
-  text-align: center;
-  h1 {
-  margin: 0;
-  font-size: 55px;
-  font-family: 'Quicksand';
-  text-shadow: 5px 4px 1px rgba(0, 0, 0, 0.5);
+  img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.5); 
   }
 }
+
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+    h1 {
+      margin: 0;
+      font-size: 55px;
+      font-family: 'Quicksand';
+      text-shadow: 5px 4px 1px rgba(0, 0, 0, 0.5);
+    }
+  }
 
 .container {
   display: $flexible;
