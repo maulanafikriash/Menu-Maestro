@@ -1,5 +1,7 @@
 # Menu-Maestro
-This is a restaurant catalog website that was the result of my submission, in the class to become a front-end web developer expert at [Dicoding Academy](https://www.dicoding.com/)
+Ini adalah website katalog restoran hasil penyelesaian saya, di kelas Menjadi Front-End Web Developer Expert di [Dicoding Academy](https://www.dicoding.com/).
+
+*This is a restaurant catalog website that was the result of my submission, in the class to Cecome a Front-End Web Developer Expert at [Dicoding Academy](https://www.dicoding.com/)*
 
 ## Menu Page :
 - Home
@@ -19,6 +21,7 @@ This is a restaurant catalog website that was the result of my submission, in th
 ## Tech :
 All Native
 - JavaScript
+- NodeJS
 - SCSS
 - HTML
 
